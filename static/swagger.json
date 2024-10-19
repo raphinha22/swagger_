@@ -1,0 +1,29 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "My Flask API",
+      "description": "API documentation",
+      "version": "1.0.0"
+    },
+    "basePath": "/",
+    "paths": {
+      "/users": {
+        "get": {
+          "summary": "List users",
+          "description": "Returns a list of users",
+          "responses": {
+            "200": {
+              "description": "A list of users",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
